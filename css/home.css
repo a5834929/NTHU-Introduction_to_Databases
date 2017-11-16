@@ -1,0 +1,189 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url("../img/skyscraper2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.container-fluid{
+	margin:0;
+	padding:0;
+}
+
+.header div{
+	color: #CCEEFF;
+	font-family: 'Exo', sans-serif;
+	font-size: 30px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.header div span{
+	color: #5599FF !important;
+}
+
+hr.style-one{
+    border: 0;
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0));
+    background-image:    -moz-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0));
+    background-image:     -ms-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0));
+    background-image:      -o-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0));
+}
+hr.style-two{
+    border: 0;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.loading-content{
+	position: fixed;
+	left:calc(50% + 30px);
+	top:30%;
+	z-index: 5;
+}
+
+/* make sidebar nav vertical */ 
+.navbar{
+	border:0px;
+	background-color: transparent;
+}
+
+.sidebar-nav{
+	position: fixed;
+	width:15%;
+	height:100%;
+	background: -webkit-repeating-linear-gradient(left, black, black, black, #233646);
+	background: -o-repeating-linear-gradient(left, black, black, black, #233646);
+	background: -moz-repeating-linear-gradient(left, black, black, black, #233646);
+	background: repeating-linear-gradient(left, black, black, black, #233646);
+	opacity:0.85;
+	box-shadow:3px 0px 10px 3px #233646;
+}
+.sidebar-nav .navbar .navbar-collapse {
+	padding: 0;
+	max-height: none;
+}
+.sidebar-nav .navbar ul {
+	float: none;
+}
+.sidebar-nav .navbar ul:not {
+	display: block;
+}
+.sidebar-nav .navbar li {
+	float: none;
+	display: block;
+}
+.sidebar-nav .navbar li a {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	opacity:1;
+	color: #fff;
+}
+
+.sidebar-nav .navbar li a:hover{
+	color: #00DDDD;
+}
+
+.fa-sign-out{
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.table-background{
+	position: absolute;
+	width:90%;
+	height:auto;
+	top:10px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+table{
+	background-color: #EEE;
+	box-shadow: 1px 1px 20px;
+	transition:0.1s linear;
+}
+
+table:hover{
+		box-shadow: 1px 1px 40px;
+}
+
+caption{
+	font-family: 'Exo', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 500;
+}
+
+thead{
+	font-family: 'Exo', sans-serif;
+	font-weight: 100;
+	background-color: #555;
+	color:#fff;
+}
+
+.search-bar{
+	font-family: 'Exo', sans-serif;
+	font-weight: 100;
+	background-color: #555;
+	color:#000;
+}
+
+.recruit{
+	position: absolute;
+	display: block;
+}
+
+.profile-background{
+	position: absolute;
+	width:90%;
+	height:auto;
+	top:20px;
+	background-color: rgba(255,255,255,0.7);
+}
+
+.btn-align-right{
+	text-align: right;
+}
+
+.btn-inline-block{
+	display: inline-block;
+}
+
+.btn-recruit, .btn-apply, .btn-favor, .btn-static, .btn-asc, .btn-desc, .btn-search{
+	color:#AAA;
+}
+
+.btn-recruit:hover, .btn-apply:hover, .btn-favor:hover ,.btn-asc:hover, .btn-desc:hover, .btn-search:hover{
+	cursor:pointer;
+	color:#444;
+}
+
+.btn-clicked{
+	color:#444;
+}
+
+.btn-clicked:hover{
+	cursor:pointer;
+}
+
+.btn-profile{
+	color:#222;
+}
+
+.btn-profile:hover{
+	cursor:pointer;
+	color:#AAA;
+}
+
+

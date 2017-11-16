@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url("../img/skyscraper2.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.header{
+	position: absolute;
+	top: calc(4%);
+	left: calc(55%);
+	text-shadow: 0px 0px 6px #fff;
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #05325e;
+	font-family: 'Exo', sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+.header div span{
+	color: #307dc9 !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 140px);
+	left: calc(50% - 130px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input, .register input{
+	width: 260px;
+	height: 30px;
+	background-color: rgba(0,0,0,0.2);
+	border: 1px solid transparent;
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	transition: 0.3s;
+}
+
+.login button, .register button, .no-account button{
+	width: 260px;
+	height: 35px;
+	background: rgba(0,0,0,0.4);
+	border: 1px solid #000;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	text-shadow:0px 0px 5px #fff;
+	padding: 6px;
+	margin-top: 10px;
+	transition: 0.2s;
+}
+
+.login button:hover, .register button:hover, .no-account button:hover{
+	color: #a18d6c;
+	background: rgba(0,0,0,0.9);
+	text-shadow:0px 0px 5px transparent;
+}
+
+.login input:focus, .register input:focus{
+	outline: none;
+	border: 1px solid transparent;
+	background-color: rgba(0,0,0,0.6);
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.5);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.5);
+}
+
+.register{
+	position: absolute;
+	top: calc(50% - 14px);
+	left: calc(50% - 130px);
+	height: 40px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.no-account{
+	position: absolute;
+	top: calc(50% + 80px);
+	left: calc(50% - 130px);
+	height: 40px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+
